@@ -63,7 +63,7 @@ def aruco_display(corners, ids, rejected, image):
 
 
 
-aruco_type = "DICT_5X5_100"
+aruco_type = "DICT_4X4_250"
 
 arucoDict = cv2.aruco.Dictionary_get(ARUCO_DICT[aruco_type])
 
