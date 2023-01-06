@@ -69,8 +69,8 @@ arucoDict = cv2.aruco.Dictionary_get(ARUCO_DICT[aruco_type])
 
 arucoParams = cv2.aruco.DetectorParameters_create()
 
-
-cap = cv2.VideoCapture(0)
+# Realsense D415 RGB image is #4
+cap = cv2.VideoCapture(4)
 
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
